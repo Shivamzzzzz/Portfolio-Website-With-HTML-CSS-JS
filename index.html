@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/311d9537da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Home -->
+    <div id="header">
+       <div class="container">
+        <div class="mm"> <!--edit-->
+            <nav>
+                <div class="shivam"><span class="sc">S</span>hivam.</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img class="fa-solid" src="cross (2).png"onclick="closemenu()">
+                </ul>
+                <img class="fa-solid" id="mn" src="menu.png" onclick="openmenu()">
+            </nav>
+        </div>    <!--edit-->
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'am <span>Shivam</span><br>Likhar from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col-1">
+                    <img src="IMG_20220704_013720_141.jpg">
+                </div>
+                <div class="abt-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere alias recusandae velit,
+                        distinctio perspiciatis nisi nesciunt ex qui vero enim fugit, quibusdam iusto nobis. Vitae
+                        numquam qui explicabo atque esse molestias iste soluta cupiditate.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>exp</span><br>Designing Web App Interfaces</li>
+                            <li><span>exp</span><br>Web App Development</li>
+                            <li><span>exp</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>edu</span><br>Designing Web App Interfaces</li>
+                            <li><span>edu</span><br>Web App Development</li>
+                            <li><span>edu</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service -->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img class="s-i" src="coding.png">
+                    <h2>Frontend</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At optio sapiente reprehenderit
+                        reiciendis similique saepe! Magni accusamus officiis vel autem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img class="s-i" src="server.png">
+                    <h2>Backend</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At optio sapiente reprehenderit
+                        reiciendis similique saepe! Magni accusamus officiis vel autem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img class="s-i" src="window.png">
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At optio sapiente reprehenderit
+                        reiciendis similique saepe! Magni accusamus officiis vel autem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="scl" src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, accusamus!</p>
+                        <a href="#"><img class="port" src="external-link.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="scl" src="work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, accusamus!</p>
+                        <a href="#"><img class="port" src="external-link.png"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="scl" src="work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, accusamus!</p>
+                        <a href="#"><img class="port" src="external-link.png"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><img class="icon-h" src="gmail.png"><span class="gml">shivam1likhar14209211@gmail.com</span><p>
+                    <p><img class="icon-h" src="phone.png"><span class="phn">+91 744-0893-795</span></p>
+                    <div class="social-icons">
+                        <a href="#"><img class="icon-h" src="fb.png"></a>
+                        <a href="#"><img class="icon-h" src="insta.png"></a>
+                        <a href="#"><img class="icon-h" src="twitter.png"></a>
+                        <a href="#"><img class="icon-h" src="linked.png"></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msgd"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright  &copy; Shivam.</p>
+        </div>
+    </div>
+    <script> //about me 
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script> //menubar
+        var side = document.getElementById("sidemenu");
+
+        function openmenu(){
+            side.style.right = "0";
+        }
+        function closemenu(){
+            side.style.right = "-200px"
+        }
+    </script>
+    <script> //Contact form script
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx0HufZ_ep_Z7pU_Wnvy_t2cJzqYjO27q5o5GRyUJedrN96-iqEWRA6RNI33IL3HrTw7w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully" 
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()    
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
