@@ -15,10 +15,10 @@ body{
 #header{
     height: 100vh;
     width: 100%;
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;  
-    position: sticky;
+    background-image: url(images/final.jpg);
+    background-size: contain;
+    background-position:right;  
+    background-repeat: no-repeat;
 }
 .container{
     padding: 10px 10%;
