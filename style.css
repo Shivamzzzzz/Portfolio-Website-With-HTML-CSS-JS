@@ -201,6 +201,7 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .scl{
+    height: 100%;
     width:100%;
     border-radius: 10px;
     display: block;
