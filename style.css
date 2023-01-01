@@ -354,6 +354,17 @@ nav .fa-solid{
         background-position:right;
         z-index: 11;
     }
+    .abc{
+        display: flex;
+        position: sticky;
+        top: 7.2%;
+        z-index: 10;
+        justify-content: flex-end;
+        width: 90%;
+    }
+    #mn{ 
+        height: 2rem;
+    }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
